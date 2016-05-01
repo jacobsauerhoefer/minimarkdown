@@ -9,6 +9,7 @@
 * Well Documented for Newbies
 * Well Structured for Experienced Developers
 * Introduce progressive technologies and practices
+* Focus on performance and optimization
 
 ## File Structure
 

@@ -17,7 +17,7 @@ Server: node.js ( https://nodejs.org/en/ )
 Build System: webpack ( https://webpack.github.io/ )
 Testing: Jasmine ( http://jasmine.github.io/ )
 Front End Framework: Angular 2 ( https://angular.io/ )
-Linting: TSLint
+Linting: ESLint
 
 ### Engineering Conventions ###
 #/ Suggested Coding Practices for Interacting with this Project /#
