@@ -6,8 +6,6 @@
 
 * Integrate best practices in application architectures
 * Lightweight "master" seed for deploying fast
-* Well Documented for Newbies
-* Well Structured for Experienced Developers
 * Introduce progressive technologies and practices
 * Focus on performance and optimization
 
