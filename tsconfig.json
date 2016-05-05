@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        // "outFile": "server.js",
+        "outDir": "server/build",
+        "sourceMap": true
+    },
+    "files": [
+        "server/source/server.ts",
+        "server/source/api/api.ts"
+    ]
+}

@@ -1,11 +1,8 @@
 ### Directory Details ###
 #/ How this app is structured: /#
 
-|---app # Uncompiled Application Code 
-|---config # Production Configuration Files
 |---public # Client Files
 |---server # Server Code
-|---tests # Server Side Production Specs
 |---application.bash # This File
 |---server.js # Server
 |---package.json
