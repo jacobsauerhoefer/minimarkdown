@@ -7,15 +7,15 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "tsc && jasmine-node server/spec",
-    "start": "tsc && jasmine-node server/spec && node server/build/server.js"
+    "test": "eslint * && jasmine-node server/spec",
+    "start": "eslint * && jasmine-node server/spec && node server/source/server.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.8.0",
     "eslint": "^2.9.0",
-    "jasmine-node": "^1.14.5",
-    "typescript": "^1.8.10"
+    "jasmine-node": "^1.14.5"
   },
   "dependencies": {
     "express": "^4.13.4",
