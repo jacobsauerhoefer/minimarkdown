@@ -7,8 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "eslint * && jasmine-node server/spec",
-    "start": "eslint * && jasmine-node server/spec && node server/source/server.js"
+    "test": "eslint * && jasmine-node server/tests",
+    "start": "eslint * && jasmine-node server/tests && node server/source/server.js"
   },
   "author": "",
   "license": "ISC",
