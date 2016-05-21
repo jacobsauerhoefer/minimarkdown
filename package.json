@@ -7,15 +7,17 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "eslint * && jasmine-node server/tests",
-    "start": "eslint * && jasmine-node server/tests && node server/source/server.js"
+    "test": "mocha --recursive server/tests/**/*.js",
+    "start": "node server/source/server.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.8.0",
+    "chai": "^3.5.0",
     "eslint": "^2.9.0",
-    "jasmine-node": "^1.14.5"
+    "jasmine-node": "^1.14.5",
+    "mocha": "^2.4.5"
   },
   "dependencies": {
     "express": "^4.13.4",
