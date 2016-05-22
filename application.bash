@@ -4,7 +4,6 @@
 |---public # Client Files
 |---server # Server Code
 |---application.bash # This File
-|---server.js # Server
 |---package.json
 
 ### Technologies / Dependencies ###
@@ -21,5 +20,3 @@ Linting: ESLint
 
 Architecture: Component-based Engineering
 Testing: BDD / TDD
-
-
