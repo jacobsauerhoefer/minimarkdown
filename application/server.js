@@ -5,7 +5,7 @@ var port = 3000;
 
 require("./api/api.js")(app);
 
-app.use(express.static('public'));
+app.use(express.static('application/public'));
 
 app.get('/', (req, res) => {
     res.sendFile('index.html', { root: "./application/public" });
