@@ -1,7 +1,7 @@
 var assert = require('assert'),
     http = require('http');
 
-var server = require('../source/server.js');
+var server = require('../application/server.js');
 
 describe('server', function () {
   before(function () {

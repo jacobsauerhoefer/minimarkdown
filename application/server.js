@@ -8,7 +8,7 @@ require("./api/api.js")(app);
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    res.sendFile('index.html', { root: "./public" });
+    res.sendFile('index.html', { root: "./application/public" });
 });
 
 var server = app.listen(port, function () {

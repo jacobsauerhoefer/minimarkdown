@@ -1,8 +1,8 @@
 ### Directory Details ###
 #/ How this app is structured: /#
 
-|---public # Client Files
-|---server # Server Code
+|---application # Application Code
+|---tests #testing
 |---application.bash # This File
 |---package.json
 

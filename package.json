@@ -7,8 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "mocha --recursive server/tests/**/*.js",
-    "start": "node server/source/server.js"
+    "test": "mocha --recursive tests/**/*.js",
+    "start": "node application/server.js"
   },
   "author": "",
   "license": "ISC",
