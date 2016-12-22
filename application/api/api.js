@@ -1,8 +1,15 @@
 "use strict";
+var fs = require('fs');
 
 var api = function(app) {
-    app.get('/api/v1.0/user/:name', function (req, res) {
-        res.send({ name: req.params.name });
+    app.post('/api/v1.0/saveMarkdown', function (req, res) {
+        fs.writeFile("application/public/about/content.md", req.body.markdown, function(err) {
+            if(err) {
+                return console.log(err);
+            }
+            console.log("The file was saved!");
+            res.redirect(req.header('Referer'));
+        });
     });
 }
 

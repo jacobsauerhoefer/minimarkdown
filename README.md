@@ -1,14 +1,10 @@
-## App-Shell
+## minimarkdown
 
-> node.js based Application Shell for use in powering modern web-based user interfaces
+> lightweight cms using markdown
 
 ## Goals
 
-* Integrate best practices in application architectures
-* Lightweight "master" seed for deploying fast
-* Introduce progressive technologies and practices
-* Focus on performance and optimization
-* Behavior Driven Development
+TBA
 
 ## File Structure
 

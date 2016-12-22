@@ -2,10 +2,12 @@
 var express = require("express");
 var app = express();
 var port = 3000;
-
-require("./api/api.js")(app);
+var bodyParser = require('body-parser');
 
 app.use(express.static('application/public'));
+app.use(bodyParser.urlencoded());
+
+require("./api/api.js")(app);
 
 app.get('/', (req, res) => {
     res.sendFile('index.html', { root: "./application/public" });
@@ -20,9 +22,3 @@ exports.closeServer = function () {
 };
 
 exports.App = app;
-
-// a.js
-class A {
-  // ...
-}
-module.exports = A;
