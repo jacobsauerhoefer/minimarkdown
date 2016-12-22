@@ -18,13 +18,16 @@
 			</ul>
 		</nav>
 	</header>
-	<div class="layout">
 
-	<form action="/api/v1.0/saveMarkdown" method="post" enctype="application/x-www-form-urlencoded">
+	<div class="layout">
+	
+	<form class="contentForm" action="/api/v1.0/saveMarkdown" method="post" enctype="application/x-www-form-urlencoded">
 		<textarea id="editContent" name="markdown"></textarea>
 		<button type="submit">Save</button>
 	</form>
 
+	<button class="editPage">Edit Content</button>
+	
 	<section id="content">
 	
 		<article>
@@ -58,7 +61,7 @@
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.2.2/markdown-it.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="./main.js"></script>
+<script src="../main.js"></script>
 </body>
 
 </html>
